@@ -1,0 +1,10 @@
+Input1=$[RANDOM%99+10]
+Input2=$[RANDOM%99+10]
+Input3=$[RANDOM%99+10]
+Input4=$[RANDOM%99+10]
+Input5=$[RANDOM%99+10]
+Total=$(($Input1+$Input2+$Input3+$Input4+$Input5))
+echo "Sum of 5 random 2 digit values is = $Total"
+no=5
+calc=$(($Total/$no))
+echo "Average is = $calc "
