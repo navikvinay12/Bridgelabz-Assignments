@@ -1,0 +1,10 @@
+5. Unit Conversion
+
+a. 1ft = 12 in then 42 in = ? ft
+awk 'BEGIN {x=42;y=12;print x/y}'
+	//—-------
+b. Rectangular Plot of 60 feet x 40 feet in meters
+awk 'BEGIN {x=60;y=40;z=3.281;print x*y/z}'
+	//—-------
+c. Calculate area of 25 such plots in acres
+awk 'BEGIN {x=2400;y=2400;z=25;a=4047;print x*y*z/a}'
