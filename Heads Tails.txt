@@ -1,0 +1,8 @@
+var=$(($RANDOM%2))
+
+if [ $var -eq 0 ]
+then
+	echo Heads
+else
+	echo Tails
+fi
